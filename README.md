@@ -14,6 +14,8 @@
 [![Profile views](https://komarev.com/ghpvc/?username=ProfessorQuantumUniverse&style=for-the-badge&color=1f6feb)](https://github.com/ProfessorQuantumUniverse)
 [![lowlighter/metrics](https://img.shields.io/badge/Powered%20by-lowlighter%2Fmetrics-58a6ff?style=for-the-badge&logo=github)](https://github.com/lowlighter/metrics)
 
+[![Dhyey's youtube stats](https://youtube-stats-card.vercel.app/api?channelid=UCYc6r3_fFB08bWNGq_VgXIA)](https://www.youtube.com/channel/UCYc6r3_fFB08bWNGq_VgXIA)
+
 </div>
 
 ---
