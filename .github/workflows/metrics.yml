@@ -48,6 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.classic.svg
@@ -63,6 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.isocalendar.svg
@@ -78,6 +80,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.languages.svg
@@ -104,6 +107,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.stargazers.svg
@@ -122,6 +126,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.lines.svg
@@ -139,6 +144,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.topics.svg
@@ -156,6 +162,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.stars.svg
@@ -171,6 +178,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.licenses.svg
@@ -190,6 +198,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.habits.svg
@@ -211,6 +220,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.contributors.svg
@@ -231,6 +241,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.followup.svg
@@ -249,6 +260,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.reactions.svg
@@ -268,6 +280,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.people.svg
@@ -287,6 +300,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.sponsorships.svg
@@ -303,6 +317,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.sponsors.svg
@@ -320,6 +335,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.repositories.svg
@@ -336,6 +352,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.discussions.svg
@@ -352,6 +369,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.starlists.svg
@@ -370,6 +388,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.calendar.svg
@@ -385,6 +404,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.achievements.svg
@@ -403,6 +423,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.notable.svg
@@ -424,6 +445,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.activity.svg
@@ -445,6 +467,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.traffic.svg
@@ -459,6 +482,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.code.svg
@@ -478,6 +502,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.gists.svg
@@ -492,6 +517,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.projects.svg
@@ -508,6 +534,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.introduction.svg
@@ -523,6 +550,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.skyline.svg
@@ -542,6 +570,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.pagespeed.svg
@@ -560,6 +589,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.stackoverflow.svg
@@ -577,6 +607,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.anilist.svg
@@ -598,6 +629,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.music.svg
@@ -619,6 +651,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.posts.svg
@@ -638,6 +671,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.rss.svg
@@ -655,6 +689,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.wakatime.svg
@@ -676,6 +711,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.leetcode.svg
@@ -695,6 +731,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.steam.svg
@@ -716,6 +753,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.16personalities.svg
@@ -733,6 +771,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.chess.svg
@@ -750,6 +789,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.fortune.svg
@@ -764,6 +804,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.screenshot.svg
@@ -782,6 +823,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.splatoon.svg
@@ -802,6 +844,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
+        if: ${{ secrets.METRICS_TOKEN != '' }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/metrics.stock.svg
