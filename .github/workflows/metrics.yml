@@ -73,10 +73,14 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
+          
+          # Added PageSpeed API token below
           plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} 
           plugin_pagespeed_pwa: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: https://professorquantumuniverse.github.io/My-Projects/
+          
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 18
